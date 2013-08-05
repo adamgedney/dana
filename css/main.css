@@ -57,7 +57,7 @@ ul {
 
 
 body{
-	background: url("../images/crdbd.png")#faf9f3;
+	background: url("../images/crdbd.png")#efefef;
 	color: #c7c0b6;
 	font: 62.5% "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 }
@@ -108,21 +108,19 @@ object:focus { outline:none; }
 	color:#bf767e;
 }
 
-
+img.image {
+	max-width: 100%;
+}
 
 /*--------------------------------------End General / Start Main------------------------------------*/
 
-.featured-img{
-	background: url("../images/girl.jpg") repeat-x #efefef;
-	width: 100%;
-}
 
 header{
 	opacity: .7;
-	background: url("../images/crdbd.png")#faf9f3;
+	background: url("../images/crdbd.png")#efefef;
 	padding: 0 40px;
-	height: 70px;
-	border-bottom: solid 1px #442f52;
+	/*height: 70px;*/
+	/*border-bottom: solid 1px #442f52;*/
 }
 
 .logo{
@@ -137,7 +135,7 @@ header{
 .landing{
 	max-width: 1140px;
 	margin: 0 auto;
-	height: 575px;
+	/*height: 1100px;*/
 	padding-top: 28px;
 }
 
@@ -155,20 +153,10 @@ header{
 	color: #424242;
 }
 
-.tip{
-	margin-top:45px;
-	float:right;
-}
-
-.tip2{
-	display: none;
-}
-
 #wrapper {
-	float: left;
-	max-width:525px;
-	height:525px;
-	margin-left: 10%;
+	float: none;
+	max-width: 731px;
+	margin: 0 auto;
 }
 
 img.accent{
@@ -180,7 +168,7 @@ img.accent{
 .body-copy{
 	color: #686868;
 	max-width: 800px;
-	margin: 0 auto;
+	margin: 25px auto 0;
 	padding: 0 5%;
 
 }
@@ -195,9 +183,9 @@ a.button{
 	height: 50px;
 	margin: 34px auto 200px;
 	background: #bf767e; 
-	line-height: 2.2em;
-	padding-left: 17px;
-	font-size: 2.4em;
+	line-height: 2.9em;
+	padding-left: 12px;
+	font-size: 1.8em;
 	font-weight: 100;
 	color: #efefef;
 }
@@ -221,89 +209,7 @@ footer{
 	color: #969696;
 }
 
-@media (max-width: 1065px){
-
-#wrapper {
-float: left;
-margin: 0 auto;
-}
-
-}
-
-@media (max-width: 897px){
-
-.content{
-	width: 95%;
-}
-
-#wrapper {
-	margin: 160px 20% 80px;
-}
-
-.tip{
-	display: none;
-}
-
-.tip2{
-	display: block;
-	width: 200px;
-	margin-top:45px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-a.button{
-	margin-bottom: 60px;
-}
-
-}
-
-@media (max-width: 766px){
-
-.tip2{
-	display: none;
-}
-
-
-#wrapper{
-	margin: 140px 5% 0;
-	height: auto;
-}
-
-#movie{
-	margin-left: 25%;
-}
-
-img.altFlash{
-	max-width: 70%;
-}
-
-.body-copy{
-	width: 96%;
-	margin: 0 2%;
-
-}
-
-.accent{
-	width: 200px;
-	height: 38px;
-}
-
-a.button{
-	display: block;
-	margin-bottom: 60px;
-	width: 175px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-}
-
-
-
-
-
-
+/*-----------------------------Media Queries-----------------------*/
 
 
 
