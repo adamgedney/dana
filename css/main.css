@@ -2,25 +2,13 @@
 
 
 
-/* 	Copyright Adam Gedney 7/18/13
+/* 	Copyright Adam Gedney 8/05/13
 contact: adam.gedney@gmail.com
 http://adamgedney.com
 
 "Good UI design is humble.” – Jono DiCarlo
 */
 
-
-/*
-Yellow - #e9cc02
-Purple -442f52
-off white  -#c7c0b6
-white -#faf9f3
-brown -#1f1f1d
-grey -#969696
-light grey -bcbcbc
-dark grey -686868
-red -#bf767e
-*/
 /*--------------------------------------Start CSS Reset---------------------------------------------*/
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -116,8 +104,8 @@ img.image {
 
 
 header{
-	opacity: .7;
-	background: url("../images/crdbd.png")#efefef;
+	/*opacity: .7;
+	background: url("../images/crdbd.png")#efefef;*/
 	padding: 0 40px;
 	/*height: 70px;*/
 	/*border-bottom: solid 1px #442f52;*/
@@ -159,12 +147,6 @@ header{
 	margin: 0 auto;
 }
 
-img.accent{
-	display: block;
-	max-width: 400px;
-	margin: 10px auto 60px;
-
-}
 .body-copy{
 	color: #686868;
 	max-width: 800px;
@@ -176,21 +158,49 @@ img.accent{
 	color: #686868;
 	margin-bottom: 8px;
 }
+/*
+.buttons{
+	overflow: hidden;
+	display: block;
+	width: 380px;
+	margin: 34px auto 200px;
+}*/
 
 a.button{
-	display: block;
+	display: inline-block;
+	/*float: left;*/
 	width: 175px;
 	height: 50px;
-	margin: 34px auto 200px;
+	margin: 34px auto 0;
 	background: #bf767e; 
 	line-height: 2.9em;
-	padding-left: 12px;
+	padding-left: 11px;
 	font-size: 1.8em;
 	font-weight: 100;
 	color: #efefef;
 }
 
 a.button:hover{
+	opacity: .6;
+	color: #fff;
+}
+
+a.donate-button{
+	display: inline-block;
+	/*float: left;*/
+	width: 175px;
+	height: 50px;
+	margin-top: 34px;
+	margin-left: 20px;
+	background: #bf767e; 
+	line-height: 2.9em;
+	padding-left: 50px;
+	font-size: 1.8em;
+	font-weight: 100;
+	color: #efefef;
+}
+
+a.donate-button:hover{
 	opacity: .6;
 	color: #fff;
 }
@@ -212,8 +222,13 @@ footer{
 /*-----------------------------Media Queries-----------------------*/
 
 
+@media ( max-width : 429px ) {
 
+.buttons a.donate-button{
+	margin-left: auto;
+	margin-right: auto;
+}
 
-
+}
 
 

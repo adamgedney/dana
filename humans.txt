@@ -19,7 +19,7 @@
                         
 
     /* SITE */
-    Last update: 05/31/2013
+    Last update: 08/05/2013
     Standards: HTML5, CSS3,..
     Software: GitHub, Sublime Text 2, Fetch
 
